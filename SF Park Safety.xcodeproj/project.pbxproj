@@ -11,6 +11,7 @@
 		F7A88D1419D4F347007917B5 /* SFTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A88D1219D4F347007917B5 /* SFTableCell.m */; };
 		F7A88D1519D4F347007917B5 /* SFTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A88D1319D4F347007917B5 /* SFTableCell.xib */; };
 		F7A88D1819D5067E007917B5 /* ParkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A88D1719D5067E007917B5 /* ParkDetailViewController.m */; };
+		F7C36FBE19DB701D00C7F5CC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C36FBD19DB701D00C7F5CC /* MapViewController.m */; };
 		F7D31D3519CDD0410083073B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D31D3419CDD0410083073B /* main.m */; };
 		F7D31D3819CDD0410083073B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D31D3719CDD0410083073B /* AppDelegate.m */; };
 		F7D31D3B19CDD0410083073B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D31D3A19CDD0410083073B /* ViewController.m */; };
@@ -62,6 +63,8 @@
 		F7A88D1319D4F347007917B5 /* SFTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFTableCell.xib; sourceTree = "<group>"; };
 		F7A88D1619D5067E007917B5 /* ParkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkDetailViewController.h; sourceTree = "<group>"; };
 		F7A88D1719D5067E007917B5 /* ParkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkDetailViewController.m; sourceTree = "<group>"; };
+		F7C36FBC19DB701D00C7F5CC /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		F7C36FBD19DB701D00C7F5CC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		F7D31D2F19CDD0410083073B /* SF Park Safety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SF Park Safety.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D31D3319CDD0410083073B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7D31D3419CDD0410083073B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				F7A88D0519D3BDE8007917B5 /* TableViewController.m */,
 				F7A88D1619D5067E007917B5 /* ParkDetailViewController.h */,
 				F7A88D1719D5067E007917B5 /* ParkDetailViewController.m */,
+				F7C36FBC19DB701D00C7F5CC /* MapViewController.h */,
+				F7C36FBD19DB701D00C7F5CC /* MapViewController.m */,
 				F7D31D3C19CDD0410083073B /* Main.storyboard */,
 				F7D31D3F19CDD0410083073B /* Images.xcassets */,
 				F7D31D4119CDD0410083073B /* LaunchScreen.xib */,
@@ -389,6 +394,7 @@
 				F7A88D1419D4F347007917B5 /* SFTableCell.m in Sources */,
 				F7D31DCC19CE272B0083073B /* UISlider+FlatUI.m in Sources */,
 				F7D31DC719CE272B0083073B /* UIFont+FlatUI.m in Sources */,
+				F7C36FBE19DB701D00C7F5CC /* MapViewController.m in Sources */,
 				F7D31DD019CE272B0083073B /* UIToolbar+FlatUI.m in Sources */,
 				F7D31DC019CE272B0083073B /* FUICellBackgroundView.m in Sources */,
 				F7D31DCE19CE272B0083073B /* UITabBar+FlatUI.m in Sources */,
@@ -524,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "SF Park Safety/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -536,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "SF Park Safety/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;

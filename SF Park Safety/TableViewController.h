@@ -12,6 +12,7 @@
 @interface TableViewController : UITableViewController
 
 @property (nonatomic, strong) SFParks *park;
+
 @property (nonatomic, strong) NSMutableArray *allParksArray;
 
 @end
